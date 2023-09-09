@@ -1,0 +1,235 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: rgb(235, 232, 228);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.logo {
+    text-decoration: none;
+    color: green;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: green;
+    text-decoration: none;
+    font-size: 1.4;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+.navigation a:hover{
+    color: blue;
+}
+section {
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background: url(images/mimo\ \(1\).jpg)  no-repeat; */
+    background-size: cover;
+    background-position: center;
+    background: rgb(199, 197, 197);
+}
+.main h2 {
+    color: rgb(20, 126, 6);
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.main span {
+    color: green;
+    font-size: 1.em;
+}
+.main h3 {
+    color: green;
+    font-style: 1.5em;
+    font-weight:300 ;
+}
+.main-btn {
+    color: aliceblue;
+    background-color: green;
+    text-decoration: none;
+    font-size: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn1 {
+    color: aliceblue;
+    background-color: rgb(93, 93, 240);
+    text-decoration: none;
+    font-size: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn2 {
+    color: aliceblue;
+    background-color: rgb(19, 201, 74);
+    text-decoration: none;
+    font-size: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn3 {
+    color: aliceblue;
+    background-color: rgb(155, 134, 14);
+    text-decoration: none;
+    font-size: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn4 {
+    color: aliceblue;
+    background-color: rgb(55, 101, 230);
+    text-decoration: none;
+    font-size: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn:hover {
+    background-color: rgb(6, 82, 6);
+    transform: scale(1.1 );
+}
+.main-btn2:hover {
+    background-color: rgb(79, 104, 40);
+    transform: scale(1.1 );
+}
+.main-btn3:hover {
+    background-color: rgb(156, 158, 44);
+    transform: scale(1.1 );
+}
+.main-btn1:hover {
+    background-color: rgb(84, 33, 202);
+    transform: scale(1.1 );
+}
+.main-btn4:hover {
+    background-color: rgb(28, 70, 161);
+    transform: scale(1.1 );
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card {
+    background-color: whitesmoke;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    
+    
+}
+.card:hover {
+    transform: scale(1.1 );
+    
+
+}
+.icon {
+    color: green;
+    font-size: 6em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+.info h3{
+    color: green;
+    font-size: 1.2em;
+    font-weight: 700;
+    /* max-width: 10px;
+    margin: 5px; */
+}
+.info p {
+    color: blue;
+    font-size: large;
+}
+.hospitals {
+    background:  rgb(199, 197, 197);
+}
+.hospitals .content {
+    margin-top: 30px;
+}
+.hospitals-card {
+    background: white;
+    border: 2px solid blue;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.hospitals-card:hover {
+    transform: scale(1.1);
+}
+.hospitals-image img {
+width: 100%;
+
+}
+.hospitals-info {
+    padding: 1em;
+}
+.hospitals-category {
+    font-size: 0.8em;
+}
+.h2 {
+    color: green;
+    
+}
